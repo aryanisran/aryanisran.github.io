@@ -1,3 +1,12 @@
+body {
+    background-color: #482284;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('fonts/Poppins-SemiBold.ttf');
+}
+
 h1 {
     font-family: Poppins;
     font-style: normal;
@@ -10,6 +19,3 @@ h1 {
     color: #FFED12;
 }
 
-body {
-    background-color: #482284;
-}
