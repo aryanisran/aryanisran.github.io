@@ -7,11 +7,16 @@ body {
     src: url('fonts/Poppins-SemiBold.ttf');
 }
 
+@font-face {
+  font-family: Poppins Light;
+  src: url('fonts/Poppins-Light.ttf');
+}
+
 h1 {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
+    font-size: xx-large;
     line-height: 72px;
     /* identical to box height */
 
@@ -21,22 +26,36 @@ h1 {
 
 /* Style the header */
 .header {
-    padding: 10px 16px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding: 10px;
+    background-color: #482284;
   }
   
   /* Page content */
   .content {
     padding: 16px;
   }
-  
-  /* The sticky class is added to the header with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
+
+  .about {
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 100px;
   }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 102px;
+
+  p {
+    color: #FFFFFF;
+    font-family: Poppins Light;
+    font-size: medium;
+  }
+
+  button {
+    width: 112px;
+    height: 40px;
+    margin-top: 25px;
+    background: #FFF46D;
+    border-radius: 100px;
+    color: #482284;
   }
