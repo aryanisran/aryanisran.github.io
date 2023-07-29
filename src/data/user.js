@@ -12,61 +12,97 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Software Developer",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Welcome to my portfolio. I am thrilled you’ve come to visit my showcase of work that I’ve compiled over the years, which includes a combination of school work and personal projects. Take a look and feel free to get in touch if you’d like to discuss potential opportunities to work together.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Aryan. A software developer living in Singapore with an interest in computer graphics and physics",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"As a passionate and motivated individual, I’m constantly striving to improve my techniques, expand my skillset and find new opportunities to grow. Each of my projects - both solo and collaborative - have provided this growth and allowed me to establish myself within this competitive industry. Please enjoy my portfolio, and feel free to get in touch with any questions.",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Takopaki VR",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A VR game where you prepare and serve food made as my Final Year Project in Singapore Polytechnic. I was an Assistant Programmer with a team of 6 that worked on this over the course of 6 months. Developed in Unity with C# scripts.",
+			logo: "./unity-logo.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://youtube.com/playlist?list=PLCzr9dnZgRXKWQ97qU5MoTBd5-ZFM0Iuj",
 		},
 
 		{
-			title: "Project 2",
+			title: "Unstable Rocket Advance",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"A GBA game made as an excercise to learn C++ and the Butano engine.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/aryanisran/unstable-rocket-advance",
 		},
 
 		{
-			title: "Project 3",
+			title: "WeedWhacker",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"A WebGL game developed as a submission for the GMTK Game Jam 2020 with the theme of Out of Control. Developed by myself within 48 hours with Unity and C#, art assets created with Adobe Illustrator.",
+			logo: "./unity-logo.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://asdeph.itch.io/weedwhacker",
 		},
 
 		{
-			title: "Project 4",
+			title: "Snake GBA",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A simple snake game developed for the GBA as an excercise to learn C and the TONC library.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://asdeph.itch.io/snake-gba",
 		},
 
 		{
-			title: "Project 5",
+			title: "Demolition",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A Windows Online Multiplayer game created by a partner and me within a week as a submission for Game Programming module in Singapore Polytechnic. Developed with Unity and Photon.",
+			logo: "./unity-logo.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://youtu.be/autDmr-LPg0",
+		},
+
+		{
+			title: "Unstable Rocket",
+			description:
+				"A WebGL game developed as a submission for Ludum Dare 49 with the theme of Unstable. Developed in a team of 2 within 48 hours with Unity and C#. Art assets created by me in Blender",
+			logo: "./unity-logo.png",
+			linkText: "View Project",
+			link: "https://asdeph.itch.io/unstable-rocket",
+		},
+
+		{
+			title: "Your Heistness",
+			description:
+				"A WebGL game developed as a submission for SEA Game Jam 2021 with the theme of Crown. Developed in a team of 5 within 48 hours with Unity and C#.",
+			logo: "./unity-logo.png",
+			linkText: "View Project",
+			link: "https://takorebi.itch.io/your-heistness",
+		},
+
+		{
+			title: "Medical Warfare",
+			description:
+				"An Android Tower Defense game made over 4 months for a client in Game Design and Development Studio module in Singapore Polytechnic. I was Lead Programmer for this project. Developed in Unity with C# scripts.",
+			logo: "./unity-logo.png",
+			linkText: "View Project",
+			link: "https://play.google.com/store/apps/details?id=com.DGDD.multiplayer",
+		},
+
+		{
+			title: "Robot Warfare",
+			description:
+				"A Windows Tower Defense game made over 4 months for Game Design and Development Studio module in Singapore Polytechnic. I was Assistant Programmer for this project. Developed in Unity with C# scripts.",
+			logo: "./unity-logo.png",
+			linkText: "View Project",
+			link: "https://youtu.be/CtQvDfD8Wjw",
 		},
 	],
 };
