@@ -18,7 +18,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Aryan. A software developer living in Singapore with an interest in computer graphics and physics",
+		title: "I’m Aryan. A Game Design and Development graduate based in Singapore. I am currently working on broadening my horizons to software as a whole.",
 		description:
 			"As a passionate and motivated individual, I’m constantly striving to improve my techniques, expand my skillset and find new opportunities to grow. Each of my projects - both solo and collaborative - have provided this growth and allowed me to establish myself within this competitive industry. Please enjoy my portfolio, and feel free to get in touch with any questions.",
 	},
@@ -36,7 +36,7 @@ const INFO = {
 		{
 			title: "Unstable Rocket Advance",
 			description:
-				"A GBA game made as an excercise to learn C++ and the Butano engine.",
+				"A GBA game made as an exploration to learn C++ and the Butano engine.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png",
 			linkText: "View Project",
 			link: "https://github.com/aryanisran/unstable-rocket-advance",
@@ -54,7 +54,7 @@ const INFO = {
 		{
 			title: "Snake GBA",
 			description:
-				"A simple snake game developed for the GBA as an excercise to learn C and the TONC library.",
+				"A simple snake game developed for the GBA as an exploration to learn C and the TONC library.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png",
 			linkText: "View Project",
 			link: "https://asdeph.itch.io/snake-gba",
